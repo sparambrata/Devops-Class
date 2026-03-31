@@ -43,8 +43,8 @@ Output Screenshot:
 
 Step 2: Configure Git
 Commands used:
-git config --global user.name "Parambrata Sanyal"
-git config --global user.email "sparambrata@users.noreply.github.com"
+git config user.name "Parambrata Sanyal"
+git config user.email "sparambrata@users.noreply.github.com"
 
 Output Screenshot:
 [Insert Screenshot - Git config values]
@@ -98,7 +98,12 @@ Task 2:
 Create a new branch and merge it with main branch.
 
 Commands Used:
-(To be updated after branch and merge operations)
+git switch -c practical-branch
+git add Git_Practical_1.md
+git commit -m "Update report from practical branch"
+git switch main
+git merge practical-branch --no-ff -m "Merge practical-branch into main"
+git push
 
 Advantages of Git:
 1. Fast and efficient version tracking.
