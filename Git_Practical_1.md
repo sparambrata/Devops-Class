@@ -111,3 +111,6 @@ Challenges in Version Control:
 1. Merge conflicts can be difficult for beginners.
 2. Incorrect branching strategy can create confusion.
 3. Misconfigured ignore/staging may commit unwanted files.
+Branch Activity Note:
+Created branch practical-branch, updated report, and prepared for merge into main.
+
